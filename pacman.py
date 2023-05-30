@@ -467,7 +467,7 @@ def startGame():
                   Pacman.changespeed(0,-30)
               if event.key == pygame.K_DOWN:
                   Pacman.changespeed(0,30) 
-              if event.key == pygame.K_t:
+              if event.key == pygame.K_j:
                 if t_flag == False:
                   for i in range(10):
                     Troll=Ghost( (i*60+19), (i*60+19) , "images/Trollman.png" )
